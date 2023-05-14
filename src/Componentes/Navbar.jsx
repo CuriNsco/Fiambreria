@@ -3,10 +3,18 @@ import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from 'react-router-dom'
 
-const navigation = [
-  { name: 'Fiambres', href: '/Fiambres', current: false },
-  { name: 'Quesos', href: '/Quesos', current: false },
-  { name: 'Embutidos', href: '/Embutidos', current: false },
+const fiambres = [
+  { name: 'Fiambres', current: false },
+  // { name: 'Quesos', href: '/Quesos', current: false },
+  // { name: 'Embutidos', href: '/Embutidos', current: false },
+]
+
+const quesos = [
+  {name: 'Quesos', current: false},
+]
+
+const embutidos= [
+  { name: 'Embutidos', current: false},
 ]
 
 function classNames(...classes) {
@@ -48,7 +56,7 @@ export default function Navbar() {
                 </div>
                 <div className="hidden py-10 sm:ml-6 sm:block">
                   <div className="flex space-x-4">
-                    {navigation.map((item) => (
+                    {fiambres.map((item) => (
                       <a
                         key={item.name}
                         href={item.href}
@@ -58,9 +66,40 @@ export default function Navbar() {
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
-                        {item.name}
+                       <Link to='/Fiambres'>{item.name}</Link>
                       </a>
                     ))}
+                     
+                     {quesos.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className={classNames(
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'rounded-md px-3 py-2 text-sm font-medium'
+                        )}
+                        aria-current={item.current ? 'page' : undefined}
+                      >
+                       <Link to='/Quesos'>{item.name}</Link>
+                      </a>
+                      
+                    ))}
+
+                      {embutidos.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className={classNames(
+                          item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'rounded-md px-3 py-2 text-sm font-medium'
+                        )}
+                        aria-current={item.current ? 'page' : undefined}
+                      >
+                       <Link to='/Embutidos'>{item.name}</Link>
+                      </a>
+                      
+                    ))}
+
                   </div>
                 </div>
               </div>
@@ -134,7 +173,7 @@ export default function Navbar() {
 
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pb-3 pt-2">
-              {navigation.map((item) => (
+              {fiambres.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"
