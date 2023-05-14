@@ -184,7 +184,7 @@ export default function Navbar() {
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
-                  {item.name}
+                  <Link to='/Fiambres'>{item.name}</Link>
                 </Disclosure.Button>
               ))}
 
@@ -199,7 +199,7 @@ export default function Navbar() {
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
-                  {item.name}
+                  <Link to='/Quesos'>{item.name}</Link>
                 </Disclosure.Button>
               ))}
 
@@ -214,7 +214,7 @@ export default function Navbar() {
                   )}
                   aria-current={item.current ? 'page' : undefined}
                 >
-                  {item.name}
+                  <Link to='/Embutidos'>{item.name}</Link>
                 </Disclosure.Button>
               ))}
             </div>
