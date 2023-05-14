@@ -43,13 +43,13 @@ export default function Navbar() {
                 <div className="flex flex-shrink-0 items-center">
               <Link to='/Inicio'> <img
                     className="block h-12 w-auto lg:hidden"
-                    src="../public/CARTELSINFONDO.PNG"
+                    src="src\assets\CARTELSINFONDO.png"
                     alt="Your Company"
                     href='/Inicio'
                   /> </Link> 
            <Link to='/Inicio'><img
                     className="hidden h-11 w-auto lg:block "
-                    src="../public/CARTELSINFONDO.PNG"
+                    src="src\assets\CARTELSINFONDO.png"
                     alt="Your Company"
                     href='/Inicio'
                   /> </Link>  
