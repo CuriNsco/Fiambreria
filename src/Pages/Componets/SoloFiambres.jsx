@@ -1,13 +1,16 @@
 import React from "react";
+import Contador from "../../Componentes/Contador/Contador";
+
+
 
 const productos = [
     {
         id: 1,
       name: "Jamon Cocido",
       href: '#',
-      imageSrc: "../public/Fiambres/Jamoncocido.PNG",
+      imageUrl: "https://fiumealmacengourmet.mitiendanube.com/productos/jamon-cocido-octava/",
       imageAlt: 'hola',
-      price: "$5.50",
+      price: '$250',
     },
     {
         id: 2,
