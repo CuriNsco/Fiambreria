@@ -11,8 +11,7 @@ export const Perfil = () => {
             <Navbar/>
         </header>
         <main>
-            <RegistroPerfil/>
-            
+            <RegistroPerfil/> 
         </main>
         <footer>
         <Newsletter/>

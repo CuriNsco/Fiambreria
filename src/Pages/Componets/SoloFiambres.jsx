@@ -96,7 +96,7 @@ const productos = [
       id: 12,
       name: 'Paleta especial',
       href: '#',
-      imageSrc: '.https://d2r9epyceweg5n.cloudfront.net/stores/001/651/135/products/img_636716207754501391-47c8f8b3571fdbcb1816208559884975-240-0.jpg',
+      imageSrc: 'https://d2r9epyceweg5n.cloudfront.net/stores/001/651/135/products/img_636716207754501391-47c8f8b3571fdbcb1816208559884975-240-0.jpg',
       price: '$200',
       imageAlt: 'hola',
   },
