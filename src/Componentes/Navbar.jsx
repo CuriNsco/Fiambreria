@@ -24,7 +24,7 @@ function classNames(...classes) {
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-black ">
+    <Disclosure as="nav" className="bg-black">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -120,7 +120,7 @@ export default function Navbar() {
                       <span className="sr-only">Open user menu</span>
                       <img
                         className="h-8 w-8 rounded-full"
-                        src="../public/user.png"
+                        src='https://assets.stickpng.com/images/585e4beacb11b227491c3399.png'
                         alt="perfil"
                       />
                     </Menu.Button>

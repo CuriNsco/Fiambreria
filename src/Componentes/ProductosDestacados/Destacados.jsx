@@ -1,5 +1,5 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
-import { Picadas } from './Picadas'
+import Example from './Picadas'
 
 const PicadaDelDia = [
   'Jamon Cocido',
@@ -50,7 +50,7 @@ export default function Destacados() {
             Todas las semanas tenemos distintos productos o promociones unicas
           </p>
         </div>
-        <Picadas/>
+        <Example/>
 
 
 
