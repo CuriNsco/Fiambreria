@@ -45,7 +45,7 @@ export default function Footer() {
               color="gray"
               className="font-normal transition-colors hover:text-blue-500 focus:text-blue-500"
             >
-              Contactanos
+              Contacto
             </Typography> </Link>
           </li>
         </ul>
