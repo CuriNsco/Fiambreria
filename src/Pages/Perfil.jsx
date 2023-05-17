@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer } from '../Componentes/Footer'
+import  Footer  from '../Componentes/Footer'
 import Navbar from '../Componentes/Navbar'
 import RegistroPerfil from './Componets/Registroperfil'
 import Newsletter from './Componets/Newsletter'

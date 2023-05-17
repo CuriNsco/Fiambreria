@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './Componentes/Navbar'
 import { Inicio } from './Componentes/Inicio'
 import Banner from './Componentes/Banner'
-import { Footer } from "./Componentes/Footer"
+import  Footer  from "./Componentes/Footer"
 
 
 function App() {

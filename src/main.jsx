@@ -12,11 +12,17 @@ import { Fiambres } from './Pages/Fiambres.jsx';
 import { Embutidos } from './Pages/Embutidos.jsx';
 import { Quesos } from './Pages/Quesos.jsx';
 import { Perfil } from './Pages/Perfil.jsx';
+import { Contacto } from './Pages/Contacto.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
+    errorElement: <ErrorPage/>,
+  },
+  {
+    path: "Contacto",
+    element: <Contacto />,
     errorElement: <ErrorPage/>,
   },
   {

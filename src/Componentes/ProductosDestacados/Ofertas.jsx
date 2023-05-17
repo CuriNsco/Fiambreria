@@ -2,7 +2,6 @@ import React from "react"
 
 const products = [
 
-
     {
       id: 1,
       name: 'Earthen Bottle',
@@ -40,7 +39,7 @@ const products = [
   
   export default function Ofertas() {
     return (
-      <div className="bg-black">
+      <div className="bg-[#09090b]">
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
   

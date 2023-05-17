@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../Componentes/Navbar'
 import Banner from '../Componentes/Banner'
-import { Footer } from '../Componentes/Footer'
+import  Footer  from '../Componentes/Footer'
 import {SoloFiambres} from './Componets/SoloFiambres'
 
 export const Fiambres = () => {

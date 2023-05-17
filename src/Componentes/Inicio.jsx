@@ -10,8 +10,8 @@ export const Inicio = () => {
       {/* <h1 className='text-4xl'>Productos destacados</h1> */}
       <Destacados/>
       </div>
-      <div className="bg-black ">
-        <h1 className='text-white text-4xl pt-16'>Ofertas</h1>
+      <div className="bg-[#09090b] ">
+        <h1 className='mt-16 text-3xl font-bold tracking-tight text-white sm:text-4xl'>Ofertas de la semana</h1>
         <Ofertas/>
       </div>
       <div>
